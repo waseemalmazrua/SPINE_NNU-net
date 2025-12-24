@@ -76,7 +76,7 @@ The segmentation includes the following anatomical structures:
 ## 🦴 Segmentation Demo
 
 <p align="center">
-  <img src="demo.gif" width="500"/>
+  <img src="images/demo.gif" width="900"/>
 </p>
 
 ---
