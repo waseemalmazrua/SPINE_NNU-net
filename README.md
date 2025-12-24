@@ -4,6 +4,7 @@
 [![Framework](https://img.shields.io/badge/Framework-nnU--Net%20v2-blue)](https://github.com/MIC-DKFZ/nnUNet)
 [![Domain](https://img.shields.io/badge/Domain-Medical%20Imaging-red)](#)
 [![Status](https://img.shields.io/badge/Status-Research%20%26%20Portfolio-success)](#)
+[![Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue?logo=kaggle)](https://www.kaggle.com/datasets/pycadmk/spine-segmentation-from-ct-scans)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Waseem%20Almazrua-blue?logo=linkedin)](https://www.linkedin.com/in/waseemalmazrua/)
 
 ---
@@ -16,9 +17,9 @@ This repository presents a **multi-class vertebrae segmentation project**
 trained on volumetric **CT scans** using **nnU-Net v2**, a state-of-the-art
 self-configuring framework for medical image segmentation.
 
-The project is designed to be:
-- **Research-oriented** (clear metrics, configuration, limitations)
-- **Portfolio-ready** (visual results, concise explanation, reproducibility)
+The project is designed to serve both:
+- **Research purposes** (clear metrics, configuration, evaluation)
+- **Professional portfolio presentation** (visual results, clarity, reproducibility)
 
 ---
 
@@ -29,6 +30,18 @@ The project is designed to be:
 - **Output**: Multi-class vertebrae masks  
 - **Classes**: 25 anatomical labels  
 - **Approach**: Fully automatic nnU-Net v2 pipeline  
+
+---
+
+## 🗂️ Dataset
+
+- **Source**: Kaggle – Spine Segmentation from CT Scans  
+- **Total scans**: 1089 CT volumes  
+- **Format**: NIfTI (`.nii.gz`)  
+- **Labels**: Multi-class vertebrae annotations  
+
+🔗 Dataset link:  
+https://www.kaggle.com/datasets/pycadmk/spine-segmentation-from-ct-scans
 
 ---
 
@@ -48,7 +61,7 @@ No manual architecture tuning was performed.
 
 ## 🏷️ Vertebrae Labels
 
-The segmentation includes the following structures:
+The segmentation includes the following anatomical structures:
 
 - **Cervical**: C1 – C7  
 - **Thoracic**: T1 – T12  
@@ -65,8 +78,6 @@ The segmentation includes the following structures:
   <img src="demo.gif" width="500"/>
 </p>
 
-The demo illustrates 3D vertebral segmentation results produced by the trained model.
-
 ---
 
 ## 📈 Training Progress
@@ -75,34 +86,49 @@ The demo illustrates 3D vertebral segmentation results produced by the trained m
   <img src="progress.png" width="650"/>
 </p>
 
-The plot shows training and validation trends across epochs,
-including convergence behavior and stability.
-
 ---
 
-## 📊 Results Summary
+## 📊 Training Summary
 
-| Metric | Value |
-|------|------|
+| Item | Value |
+|----|----|
 | Framework | nnU-Net v2 |
 | Modality | CT |
-| Classes | 25 vertebrae |
+| Total classes | 25 |
 | Training cases | 696 |
 | Validation cases | 175 |
+| Training epochs | **125** |
 | Foreground Dice | ~0.70 |
 
-### Key Observations
-- Strong performance on **mid-spine vertebrae (T/L)**  
-- Lower Dice on **extremities (C/S)** due to class imbalance and anatomical variability  
-- No training collapse or overfitting observed  
+---
+
+
+
+## ⚠️ Limitations
+
+- Reduced performance on small or rare vertebrae  
+- Class imbalance across anatomical regions  
+- Intended for **research and decision-support**, not direct clinical use  
 
 ---
 
-## 🧪 Evaluation Notes
+---
 
-- Dice = NaN indicates the absence of a given vertebra in both prediction and ground truth  
-- This behavior is expected and mathematically valid  
-- Full metrics are available in `eval_spine.json`
+## 📚 Citation
+
+If you use this project or nnU-Net in your research, please cite:
+
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021).
+nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation.
+Nature Methods, 18(2), 203–211.
+
+
 
 ---
+
+## 👤 Author
+
+**Waseem Almazrua**  
+Medical Imaging & AI  
+
 
