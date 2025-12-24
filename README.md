@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&height=280&color=gradient&text=Spine%20Segmentation&fontSize=58&fontAlignY=40&desc=Medical%20Imaging%20%7C%20nnU-Net%20v2&descAlignY=65)
+![header](https://capsule-render.vercel.app/api?type=rect&height=250&color=0:1e3c72,100:2a5298&text=Spine%20Segmentation&fontSize=60&fontAlignY=40&desc=nnU-Net%20v2%20%7C%20Multi-class%20Vertebrae%20Segmentation&descAlignY=65&descSize=20)
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/waseemalmazrua/SPINE_NNU-net)
 [![Framework](https://img.shields.io/badge/Framework-nnU--Net%20v2-blue)](https://github.com/MIC-DKFZ/nnUNet)
