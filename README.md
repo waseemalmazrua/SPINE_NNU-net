@@ -1,4 +1,8 @@
-![header](https://capsule-render.vercel.app/api?type=venom&height=340&color=gradient&text=Spine%20Segmentation&fontSize=64&fontAlignY=36&desc=Future%20of%20Medical%20AI&descAlignY=70)
+![header](https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&text=Spine%20Segmentation&fontSize=54)
+
+<p align="center">
+  <img src="demo.gif" width="700"/>
+</p>
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/waseemalmazrua/SPINE_NNU-net)
 [![Framework](https://img.shields.io/badge/Framework-nnU--Net%20v2-blue)](https://github.com/MIC-DKFZ/nnUNet)
