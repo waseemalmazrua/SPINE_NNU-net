@@ -101,6 +101,12 @@ The segmentation includes the following anatomical structures:
 | Foreground Dice | ~0.70 |
 
 ---
+- Dataset size: 1089 CT scans (raw Kaggle dataset)
+- Cases used by nnU-Net after preprocessing: 871
+- Training cases: 696
+- Validation cases: 175
+- Effective training epochs: 125
+
 
 
 
