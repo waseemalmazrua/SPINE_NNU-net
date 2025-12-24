@@ -84,7 +84,7 @@ The segmentation includes the following anatomical structures:
 ## 📈 Training Progress
 
 <p align="center">
-  <img src="progress.png" width="650"/>
+  <img src="progress.png" width="1000"/>
 </p>
 
 ---
